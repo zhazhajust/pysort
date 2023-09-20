@@ -1,0 +1,4 @@
+include *.hpp
+recursive-include src *.hpp *.cpp
+recursive-include test *.ipynb *.py
+prune examples/sample?/build
